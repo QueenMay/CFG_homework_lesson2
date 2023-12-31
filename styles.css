@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px;
+
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+#content-section {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+padding: 50px;
+}
+
+p {
+    width: 550px;
+
+}
+#pic-section{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    align-items: center;
+    flex-grow: 1;
+
+}
+img{
+    width: 150px;
+    height: 100px;
+}
+#cow{
+    height: 200px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    
+}
+#footer-content{
+    text-align: center;
+}
